@@ -1,11 +1,12 @@
 /* Service worker: tiene una copia locale dell'app per l'uso offline. */
-var CACHE = "pasti-v1";
+var CACHE = "pasti-v2";
 var ASSETS = [
   "./",
   "./index.html",
   "./manifest.json",
   "./icon-192.png",
   "./icon-512.png",
+  "./icon-maskable-512.png",
   "./apple-touch-icon.png"
 ];
 
